@@ -1,3 +1,9 @@
+---
+layout: post
+title:  "6.2 ML data engineering(preprocessing)"
+categories: DL_practice
+---
+
 # * GAN 
 ### - (NIPS 2014)
 ### - Practice on the simplest GAN model
