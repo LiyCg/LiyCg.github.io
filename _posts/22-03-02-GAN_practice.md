@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "6.2 ML data engineering(preprocessing)"
+title:  "GAN - Generative Adversarial Networks"
 categories: DL_practice
 ---
 
