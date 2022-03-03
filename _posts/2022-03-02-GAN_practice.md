@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title:  "GAN - Generative Adversarial Networks"
 categories: DL_practice
 ---
@@ -8,7 +8,6 @@ categories: DL_practice
 ### - (NIPS 2014)
 ### - Practice on the simplest GAN model
 ### - data set: MNIST(1X28X28)
-
 
 
 
