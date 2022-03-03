@@ -10,18 +10,18 @@
 # Review documentation to determine if you should use `theme` or `remote_theme`
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
-theme                  : "minimal-mistakes-jekyll"
+# theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Future Graphic Scientist's Blog"
+title                    : "Site Title"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Inyup Lee"
-description              : "B.S. Computer Science Korea University"
-url                      : "https://LiyCg.github.io"
+name                     : "Your Name"
+description              : "An amazing website."
+url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
@@ -102,18 +102,18 @@ analytics:
 
 # Site Author
 author:
-  name             : "Inyup Lee"
-  avatar           : "/assets/myProfile.jpg"
-  bio              : "Currently B.S. Computer Science Korea University"
-  location         : "Seoul, Korea"
+  name             : "Your Name"
+  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio              : "I am an **amazing** person."
+  location         : "Somewhere"
   email            :
   links:
-    - label: "dldlsduq94@korea.ac.kr"
+    - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       # url: "mailto:your.name@email.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "https://blog.naver.com/dldlsduq94"
+      # url: "https://your-website.com"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       # url: "https://twitter.com/"
@@ -122,10 +122,10 @@ author:
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/LiyCg"
+      # url: "https://github.com/"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://www.instagram.com/yeobyupyeop/"
+      # url: "https://instagram.com/"
 
 # Site Footer
 footer:
@@ -138,7 +138,7 @@ footer:
       # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "fab fa-fw fa-github"
+      # url:
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:
@@ -147,7 +147,7 @@ footer:
       # url:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://www.instagram.com/yeobyupyeop"
+      # url:
 
 
 # Reading Files
