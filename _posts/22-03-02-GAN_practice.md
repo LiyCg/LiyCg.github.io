@@ -528,7 +528,7 @@ Image("92000.png")
 
 
     
-![png](output_7_0.png)
+![png](/assets/output_7_0.png)
     
 
 
