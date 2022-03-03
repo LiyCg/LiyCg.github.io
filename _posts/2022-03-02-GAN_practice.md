@@ -1,5 +1,4 @@
 ---
-layout: single
 title:  "GAN - Generative Adversarial Networks"
 categories: DL_practice
 ---
