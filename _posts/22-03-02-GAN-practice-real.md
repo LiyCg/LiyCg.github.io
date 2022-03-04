@@ -564,10 +564,8 @@ Image("92000.png")
 ```
 
 
+![png](/assets/output_7_0.png)
 
-
-    
-![png](output_9_0.png)
     
 
 
