@@ -1,5 +1,5 @@
 ---
-title:  "GAN - Generative Adversarial Networks"
+title:  "GAN - Generative Adversarial Networks(2014)"
 categories: DL_practice
 tags:
   - Deep learning
@@ -19,7 +19,7 @@ toc_icon: "blog"
 
 # GAN
 
-Ian Goodfellow가 2014 발표한 논문이다. 
+Ian Goodfellow가 발표한 논문이다. 
 
 오늘날에도 활발히 연구되어 다양한 AI application에 활용되고 있는 딥러닝 생성모델로 컴퓨터 비전쪽에서는 혁신이었다. 
 
