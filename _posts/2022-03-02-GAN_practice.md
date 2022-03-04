@@ -18,10 +18,11 @@ toc_icon: "blog"
 
 ## 1) 특징
 
-(NIPS 2014)
-Practice on the simplest GAN model
-data set: MNIST(1X28X28)
+(NIPS 2014) <br> 
+Practice on the simplest GAN model <br>
+data set: MNIST(1X28X28) <br>
 
+<br>
 
 ```python
 # load dataset
@@ -161,7 +162,10 @@ dataloader = torch.utils.data.DataLoader(train_dataset, batch_size=128, shuffle=
 
 
 ```
+결과 <br>
+<br>
 
+```python
     Downloading http://yann.lecun.com/exdb/mnist/train-images-idx3-ubyte.gz
     Downloading http://yann.lecun.com/exdb/mnist/train-images-idx3-ubyte.gz to ./dataset/MNIST/raw/train-images-idx3-ubyte.gz
 
@@ -202,11 +206,14 @@ dataloader = torch.utils.data.DataLoader(train_dataset, batch_size=128, shuffle=
 
     Extracting ./dataset/MNIST/raw/t10k-labels-idx1-ubyte.gz to ./dataset/MNIST/raw
     
+```
 
+## 2) GAN 모델학습 & 샘플링
+ 
+학습 위해 G, D를 초기화 <br>
+적절한 Hyperparameter 설정 <br>
+<br>
 
-# * GAN 모델학습 & 샘플링
-### - 학습 위해 G, D를 초기화
-### - 적절한 Hyperparameter 설정
 
 
 ```python
@@ -237,7 +244,7 @@ optimizer_D = torch.optim.Adam(discriminator.parameters(), lr=lr, betas=(0.5,0.9
 
 ```
 
-### - 모델을 학습하면서 peoridic 하게 sampling하며 결과 확인 가능
+## 3) 모델을 학습하면서 peoridic 하게 sampling하며 결과 확인 가능하도록 만들기
 
 
 ```python
@@ -311,20 +318,16 @@ for epoch in range(n_epochs):
 
   # epoch 끝날 때마다 로그(log) 출력
   print(f"[Epoch {epoch}/{n_epochs}] [D loss: {d_loss.item():.6f}] [G loss:: {g_loss.item():.6f}] [Elapsed Time: {time.time() - start_time:.2f}s")
-
-
-
-
-
-
-
-
-
-
-
-
-
 ```
+
+
+## 4) 학습결과
+Discriminator와 Generator의 Loss를 동시에 보여줌 <br>
+마지막엔 batch 200마다 GAN에서 샘플링한 이미지를 하나씩 저장함 <br>
+<br>
+
+
+```python
 
     [Epoch 0/200] [D loss: 0.682269] [G loss:: 0.351552] [Elapsed Time: 19.42s
     [Epoch 1/200] [D loss: 0.561312] [G loss:: 2.071228] [Elapsed Time: 38.81s
