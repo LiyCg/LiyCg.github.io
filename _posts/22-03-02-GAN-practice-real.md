@@ -1,3 +1,22 @@
+---
+title:  "GAN - Generative Adversarial Networks"
+categories: DL_practice
+tags:
+  - Deep learning
+  - DL
+  - Generative Model
+  - Generative Adversarial Networks
+  - 2014
+  - implicit prediction
+toc: true
+toc_sticky: true
+toc_label: "GAN - Generative Adversarial Networks"
+toc_icon: "blog"
+---
+
+
+
+
 # GAN
 
 2014년 Ian Goodfellow가 발표한 논문이다. 
