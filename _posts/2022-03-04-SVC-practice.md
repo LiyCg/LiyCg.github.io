@@ -13,11 +13,11 @@ toc_label: "Support Vector Machine"
 toc_icon: "blog"
 ---
 
-# 8.8 Support Vector Machine
+# 8.8 SVM
 
 ❗ 본 포스트는 <선형대수와 통계학으로 배우는 머신러닝> 교재를 읽고 본인이 중요하다고 생각하는 부분을 정리한 뒤 직접 실습해본 것입니다 
 
-## 8.8.1 SVC 특성 
+## 8.8.1 SVM 특성 
 - 정의: 
       support vector를 기준으로 Class를 판별하는 classifier로 여러 classifier 중 하나
 
@@ -67,7 +67,7 @@ X = raw_wine.data
 y = raw_wine.target
 ```
 
-## 3) train / test 데이터 분할
+### 3) train / test 데이터 분할
 
 
 ```python
@@ -75,7 +75,7 @@ from sklearn.model_selection import train_test_split
 X_tn, X_te, y_tn, y_te = train_test_split(X,y,random_state=0)
 ```
 
-## 4) Data preprocessing
+### 4) Data preprocessing
 
 
 ```python
@@ -86,7 +86,7 @@ X_tn_std = std_scale.transform(X_tn)
 X_te_std = std_scale.transform(X_te)
 ```
 
-## 5) Training data
+### 5) Training data
 
 - if Classification -> SVC() / if Regression -> SVR()
 
@@ -109,7 +109,7 @@ clf_svm_lr.fit(X_tn_std,y_tn)
 
 
 
-## 6) 데이터 예측(와인 분류 하기!)
+### 6) 데이터 예측(와인 분류 하기!)
 
 
 ```python
@@ -121,7 +121,7 @@ print(pred_svm)
      1 1 2 0 0 1 1 1]
 
 
-## 7) 정확도 평가
+### 7) 정확도 평가
 7.1 Accuracy score
 
 
