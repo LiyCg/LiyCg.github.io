@@ -6,7 +6,6 @@ tags:
   - DL
   - Generative Model
   - Generative Adversarial Networks
-  - 2014
   - implicit prediction
 toc: true
 toc_sticky: true
