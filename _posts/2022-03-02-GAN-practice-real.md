@@ -43,6 +43,7 @@ GAN 논문을 읽어보고 실습을 통해 내가 만든 모델이 이미지를
 
 
 
+## 2) Generator와 Discriminator 클래스 생성
 
 ```python
 # load dataset
@@ -157,7 +158,7 @@ class Discriminator(nn.Module):
 
 ```
 
-## 2) Loading and importing MNIST data set
+## 3) Loading and importing MNIST data set
 
 
 ```python
@@ -227,7 +228,7 @@ dataloader = torch.utils.data.DataLoader(train_dataset, batch_size=128, shuffle=
     
 
 
-## 3) GAN 모델학습 & 샘플링
+## 4) GAN 모델학습 & 샘플링
 
 - 학습 위해 G, D를 초기화
 
@@ -262,7 +263,7 @@ optimizer_D = torch.optim.Adam(discriminator.parameters(), lr=lr, betas=(0.5,0.9
 
 ```
 
-## 4) 모델을 학습하면서 peoridic 하게 sampling하며 결과 확인 가능하게 하기
+## 5) 모델을 학습하면서 peoridic 하게 sampling하며 결과 확인 가능하게 하기
 
 
 ```python
@@ -553,7 +554,7 @@ for epoch in range(n_epochs):
     [Epoch 199/200] [D loss: 0.112756] [G loss:: 3.328232] [Elapsed Time: 3975.30s
 
 
-## 5) Batch 200 학습할 때마다 sample한 data들 Visualization
+## 6) Batch 200 학습할 때마다 sample한 data들 Visualization
 
 
 ```python
