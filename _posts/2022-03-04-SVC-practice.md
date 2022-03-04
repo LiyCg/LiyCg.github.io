@@ -75,7 +75,7 @@ from sklearn.model_selection import train_test_split
 X_tn, X_te, y_tn, y_te = train_test_split(X,y,random_state=0)
 ```
 
-##4) Data preprocessing
+## 4) Data preprocessing
 
 
 ```python
