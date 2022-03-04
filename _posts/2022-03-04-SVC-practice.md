@@ -1,3 +1,18 @@
+---
+title:  "8.8 Support Vector Machine"
+categories: 
+  - ML_practice
+tags:
+  - machine learning
+  - ML
+  - SVM
+  - Support Vector Machine
+toc: true
+toc_sticky: true
+toc_label: "Support Vector Machine"
+toc_icon: "blog"
+---
+
 # 8.8 Support Vector Machine
 
 ❗ 본 포스트는 <선형대수와 통계학으로 배우는 머신러닝> 교재를 읽고 본인이 중요하다고 생각하는 부분을 정리한 뒤 직접 실습해본 것입니다 
