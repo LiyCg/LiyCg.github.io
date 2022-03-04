@@ -1,13 +1,26 @@
 ---
 title:  "GAN - Generative Adversarial Networks"
 categories: DL_practice
+tags:
+  - Deep learning
+  - DL
+  - Generative Model
+  - Generative Adversarial Networks
+  - 2014
+  - implicit prediction
+toc: true
+toc_sticky: true
+toc_label: "GAN - Generative Adversarial Networks"
+toc_icon: "blog"
 ---
 
-# * GAN 
-### - (NIPS 2014)
-### - Practice on the simplest GAN model
-### - data set: MNIST(1X28X28)
+# GAN
 
+## 1) 특징
+
+(NIPS 2014)
+Practice on the simplest GAN model
+data set: MNIST(1X28X28)
 
 
 ```python
