@@ -1,3 +1,21 @@
+---
+title:  "8.9 Cross Validation"
+categories: 
+  - ML_practice
+tags:
+  - machine learning
+  - ML
+  - Cross Validation
+  - KFold
+  - Hyperparameter tuning
+toc: true
+toc_sticky: true
+toc_label: "Cross Validation"
+toc_icon: "blog"
+---
+
+
+
 # Cross Validation
 
 ## 1) 목적
