@@ -810,7 +810,7 @@ plt.show()
 
 
     
-![png](output_10_1.png)
+![png](/assets/output_10_1.png)
     
 
 
@@ -1405,11 +1405,7 @@ from IPython.display import Image
 Image('1200.png')
 ```
 
-
-    Output hidden; open in https://colab.research.google.com to view.
-
-
-![download%20%282%29.png](attachment:download%20%282%29.png)
+![png](/assets/download (1).png)
 
 
 ```python
@@ -1417,10 +1413,8 @@ Image('10000.png')
 ```
 
 
-    Output hidden; open in https://colab.research.google.com to view.
-
-
-![download%20%281%29.png](attachment:download%20%281%29.png)
+  
+![png](/assets/download (2).png)
 
 
 ```python
@@ -1428,10 +1422,7 @@ Image('2400.png')
 ```
 
 
-    Output hidden; open in https://colab.research.google.com to view.
-
-
-![download%20%283%29.png](attachment:download%20%283%29.png)
+![png](/assets/download (3).png)
 
 ## 학습된 모델 파라미터 저장 및 테스트
  - 다음의 코드를 이용하여 학습된 모델 파라미터를 다운로드 받을 수 있다 
@@ -1555,7 +1546,4 @@ Image('result.png')
 ```
 
 
-    Output hidden; open in https://colab.research.google.com to view.
-
-
-![download%20%284%29.png](attachment:download%20%284%29.png)
+![png](/assets/download (4).png)
