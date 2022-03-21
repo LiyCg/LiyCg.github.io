@@ -1,3 +1,20 @@
+---
+title:  "Image-to-Image Translation with Conditional Adversarial Networks(CVPR2017))"
+categories: DL_practice
+tags:
+  - Deep learning
+  - DL
+  - Generative Model
+  - Generative Adversarial Networks
+  - image translation
+  - cGAN
+  - domain change
+toc: true
+toc_sticky: true
+toc_label: "Pix2Pix - Image-to-Image Translation with Conditional Adversarial Net"
+toc_icon: "blog"
+---
+
 # Pix2Pix 코드 실습
  - 작성자: 이인엽(dldlsduq94@korea.ac.kr)
  - 논문제목: Image-to-Image Translation with Conditional Adversarial Networks(CVPR2017)
