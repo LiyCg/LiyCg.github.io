@@ -3867,27 +3867,27 @@ if __name__ == "__main__":
 ## 결과 출력
     - Zebra -> Horse
 
-![horse_400.png](attachment:horse_400.png)
+![horse_400.png](/assets/horse_400.png)
 
-![horse_600.png](attachment:horse_600.png)
+![horse_600.png](/assets/horse_600.png)
 
-![horse_1200.png](attachment:horse_1200.png)
+![horse_1200.png](/assets/horse_1200.png)
 
-![horse_1000.png](attachment:horse_1000.png)
+![horse_1000.png](/assets/horse_1000.png)
 
-![horse_1200%20%281%29.png](attachment:horse_1200%20%281%29.png)
+![horse_1200%20%281%29.png](/assets/horse_1200%20%281%29.png)
 
     - Horse -> Zebra
 
-![zebra_400.png](attachment:zebra_400.png)
+![zebra_400.png](/assets/zebra_400.png)
 
-![zebra_800%20%281%29.png](attachment:zebra_800%20%281%29.png)
+![zebra_800%20%281%29.png](/assets/zebra_800%20%281%29.png)
 
-![zebra_800.png](attachment:zebra_800.png)
+![zebra_800.png](/assets/zebra_800.png)
 
-![zebra_1200%20%281%29.png](attachment:zebra_1200%20%281%29.png)
+![zebra_1200%20%281%29.png](/assets/zebra_1200%20%281%29.png)
 
-![zebra_1200.png](attachment:zebra_1200.png)
+![zebra_1200.png](/assets/zebra_1200.png)
 
   ## 테스트 데이터 출력해보기
 
@@ -3912,7 +3912,7 @@ plt.show()
 
 
     
-![png](output_40_1.png)
+![png](/assets/output_40_1.png)
     
 
 
@@ -3990,7 +3990,7 @@ plt.show()
 
 
     
-![png](output_42_2.png)
+![png](/assets/output_42_2.png)
     
 
 
