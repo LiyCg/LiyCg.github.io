@@ -1,3 +1,22 @@
+---
+title:  "CycleGAN - Unpaired Image-to-Image Translation using Cycle-Consistent Adversarial Networks(2017)"
+categories: DL_practice
+tags:
+  - Deep learning
+  - DL
+  - Generative Model
+  - Generative Adversarial Networks
+  - cycleGAN
+  - unpairedDataset
+toc: true
+toc_sticky: true
+toc_label: "CycleGAN"
+toc_icon: "blog"
+---
+
+
+
+
 # **CycleGAN** 실습
   - 이인엽 작성
   - dldlsduq94@korea.ac.kr
@@ -3849,7 +3868,6 @@ if __name__ == "__main__":
     - Zebra -> Horse
 
 ![horse_400.png](attachment:horse_400.png)
-
 
 ![horse_600.png](attachment:horse_600.png)
 
